@@ -14,6 +14,20 @@ class ofApp : public ofBaseApp{
 		ofTrueTypeFont myfont;
 		string email;
 
+		// enum classes - enumerator names are local to the enum and their values 
+		// do not implicitly convert to other types (like another enum or int)
+		enum class Level {
+			LEVEL_0a, 
+			LEVEL_0b,
+			LEVEL_0c,
+			LEVEL_1,
+			LEVEL_2
+		};
+		Level myLevel;
+		ofFile file;
+		ofJson json;
+		string copy_text;
+
 		void keyPressed(int key);
 		void keyReleased(int key);
 		void mouseMoved(int x, int y );
