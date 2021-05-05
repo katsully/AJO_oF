@@ -13,6 +13,7 @@ void ofApp::setup(){
 
 	myLevel = Level::LEVEL_0a;
 	copy_text = json["level0a"].get<std::string>();
+	ofBackground(0xE2E1DD);
 }
 
 //--------------------------------------------------------------
