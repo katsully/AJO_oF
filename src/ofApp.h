@@ -2,6 +2,8 @@
 
 #include "ofMain.h"
 #include "ofxOsc.h"	
+#include "ofxParagraph/src/ofxParagraph.h"
+
 
 class ofApp : public ofBaseApp{
 
@@ -9,10 +11,15 @@ class ofApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
+		void drawScreen();
 
 		ofxOscSender sender;
 		ofTrueTypeFont myfont;
+		ofTrueTypeFont myfont_bold;
+		string mobile_num;
 		string email;
+		bool typing_num;
+		ofxParagraph paragraph;
 
 		// enum classes - enumerator names are local to the enum and their values 
 		// do not implicitly convert to other types (like another enum or int)

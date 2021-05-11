@@ -7,6 +7,12 @@
 		<ClCompile Include="src\main.cpp">
 			<Filter>src</Filter>
 		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
 		<ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp">
 			<Filter>addons\ofxOsc\src</Filter>
 		</ClCompile>
@@ -43,6 +49,12 @@
 		<ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp">
 			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
 		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxParagraph\src\ofxParagraph.cpp">
+			<Filter>addons\ofxParagraph\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSmartFont\src\ofxSmartFont.cpp">
+			<Filter>addons\ofxSmartFont\src</Filter>
+		</ClCompile>
 	</ItemGroup>
 	<ItemGroup>
 		<Filter Include="src">
@@ -75,8 +87,23 @@
 		<Filter Include="addons\ofxOsc\libs\oscpack\src\osc">
 			<UniqueIdentifier>{EDACB89C-9768-9551-4D41-B590}</UniqueIdentifier>
 		</Filter>
+		<Filter Include="addons\ofxParagraph">
+			<UniqueIdentifier>{4C4FF3DC-FC6B-A835-FCDC-F3E4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxParagraph\src">
+			<UniqueIdentifier>{FCBA65FA-8E30-4327-CA3B-1326}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSmartFont">
+			<UniqueIdentifier>{DD455F83-C8F1-B75B-DF5E-B2AB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSmartFont\src">
+			<UniqueIdentifier>{8D39AF93-5C22-E2A7-FF4E-5904}</UniqueIdentifier>
+		</Filter>
 	</ItemGroup>
 	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
 		<ClInclude Include="src\ofApp.h">
 			<Filter>src</Filter>
 		</ClInclude>
@@ -139,6 +166,12 @@
 		</ClInclude>
 		<ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
 			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxParagraph\src\ofxParagraph.h">
+			<Filter>addons\ofxParagraph\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSmartFont\src\ofxSmartFont.h">
+			<Filter>addons\ofxSmartFont\src</Filter>
 		</ClInclude>
 	</ItemGroup>
 	<ItemGroup>

@@ -1,1 +1,3 @@
 ofxOsc
+ofxParagraph
+ofxSmartFont
