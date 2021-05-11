@@ -44,8 +44,6 @@ void ofApp::draw(){
 		ofSetColor(ofColor::black);
 		myfont_bold.drawString("AJO Journalism Game", 150, 200);
 		paragraph.draw(150, 300);
-		//ofSetColor(255, 0, 0);
-		//ofDrawRectangle(600, 600, 100, 100);
 		break;
 	case Level::LEVEL_0b:
 		myfont_bold.drawString("Welcome to the AJO Journalism Game", 150, 200);
@@ -70,7 +68,7 @@ void ofApp::keyPressed(int key){
 	else if (key == OF_KEY_TAB) {
 		typing_num = false;
 	}
-	else if (key == 8 && email.size() > 0) { // backspace
+	else if (key == 8 && (email.size() > 0 || mobile_num.size() > 0)) { // backspace
 		if (typing_num) {
 			mobile_num = mobile_num.substr(0, mobile_num.size() - 1); // delete last character 
 		}
